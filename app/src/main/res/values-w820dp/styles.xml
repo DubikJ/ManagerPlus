@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionBarStyle">@style/AppActionBarStyle</item>
+
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/AppActionBarStyle</item>
+    </style>
+
+    <style name="AppActionBarStyle"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/colorPrimaryDark</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="text_size_medium_style" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="text_size_small_style" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="textinputlayout_textsize_style" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="NavigationDrawerStyle">
+        <item name="android:textSize">26sp</item>
+        <item name="android:listPreferredItemHeightSmall">26sp</item>
+    </style>
+
+    <style name="MineTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="TextLabel" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">26dp</item>
+    </style>
+
+</resources>

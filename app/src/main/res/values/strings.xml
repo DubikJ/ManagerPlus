@@ -1,0 +1,208 @@
+<resources>
+    <string name="app_name">Manager +</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Налаштування</string>
+    <string name="action_side_panel">Бокова панель</string>
+    <string name="action_show_location">Паказати положення</string>
+    <string name="action_sync">Виконати обмін</string>
+    <string name="action_save">Зберегти</string>
+    <string name="action_return">Назад</string>
+    <string name="action_foto">Фото</string>
+    <string name="action_phone_call">Подзвонити</string>
+    <string name="action_map">Карта</string>
+
+    <string name="item_waybill">Дорожній лист</string>
+    <string name="nav_service">Сервіс</string>
+    <string name="item_settings">Налаштування</string>
+    <string name="item_exit">Вихід</string>
+
+    <!-- Google_Acc -->
+    <string name="google_acc_name">Акаунт Google</string>
+    <string name="google_acc_login">Введіть email та пароль google акаунту</string>
+    <string name="google_email_name">Email</string>
+    <string name="google_account_not_connect">Не вдалося підєднатися до сервісу Google.</string>
+    <string name="google_account_not_found">Не знайдено профіль акаунту</string>
+    <string name="google_account_not_entered">Не введено профіль акаунту</string>
+
+    <!-- Settings -->
+    <string name="prompt_login">Логін</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="prompt_server_adress">Адреса серверу</string>
+    <string name="action_sign_in_short">Увійти</string>
+    <string name="using_track_sync_service">Використ. автоматичну вигрузку треку</string>
+    <string name="using_tracking">Використовувати GPS трекінг</string>
+    <string name="using_develop_mode">Використ. режим розробника</string>
+    <string name="min_timetrack_sync_service">Період повтору (хв.):</string>
+    <string name="error_field_required">Це поле є обов\'язковим</string>
+    <string name="min_current_accuracy">Мінімальна точність для GPS</string>
+    <string name="min_time_gps_traking">Мін. інтервал для GPS треку (сек.)</string>
+    <string name="action_settings_location">Налаштування GPS трекінгу</string>
+    <string name="settings_period_gps_traking">Період роботи GPS трекінгу в день</string>
+    <string name="settings_days_gps_traking">Дні роботи GPS трекінгу на тиждень</string>
+    <string name="settings_type_gps_traking">Тип сервісу GPS трекінгу</string>
+    <string name="settings_period_from">Період з</string>
+    <string name="settings_period_to">Період по</string>
+
+    <!-- GPS -->
+    <string name="gps_is_setting">Налаштування місцезнаходження</string>
+    <string name="gps_is_enabled_open_settings">На пристрої вимкнене визначення місцезнаходження.</string>
+    <string name="gps_is_disabled">Вимкнений GPS</string>
+    <string name="gps_tracer_name">GPS Tracker</string>
+    <string name="service_tracking_error_message">Некорректні налаштування GPS-трекингу</string>
+    <string name="service_tracking_error_location">Невизначено координати GPS</string>
+    <string name="service_tracking_error_accu_location">Неточні координати GPS</string>
+    <string name="service_tracking_error_database">Помилка бази даних</string>
+    <string name="service_tracking_null_interval">Не заданий інтервал запису GPS треку</string>
+    <string name="service_tracking_null_type">Не вибрано тип GPS треку</string>
+    <string name="service_tracking_message">Виконується запись GPS-треку</string>
+    <string name="service_tracking_last_gps">Останні записані координати</string>
+    <string name="not_found">не знайдено</string>
+
+    <!-- Phone -->
+    <string name="phone_sms_send">СМС відправлено!</string>
+    <string name="phone_sms_dont_send">Невдалося відправити СМС!</string>
+    <string name="phone_sms_delivered">СМС доставлено!</string>
+    <string name="phone_sms_not_delivered">СМС не доставлено!</string>
+    <string name="phone_number_not_found">Не вказано номер телефону!</string>
+
+    <!-- Synchronization-->
+    <string name="error_connection_server">З\'єдання з сервером не встановлено! Можливо адреса серверу внесенна некорректно.</string>
+    <string name="error_retrieving_data">Помилка отримання даних!</string>
+    <string name="error_processing_data">Помилка обробки даних!</string>
+    <string name="error_data_not_found">Дані не найдено!</string>
+    <string name="error_no_data">Відсутні дані! Потрібно загрузити дані з серверу!</string>
+    <string name="error_invalid_query">Помилка запиту!</string>
+    <string name="error_data_server">Помилка обробки данних на сервері!</string>
+    <string name="auth_error">Невірні логін або пароль.</string>
+    <string name="sync_error">Помилка сінхронізації.</string>
+    <string name="sync_timeout">Закінчився час синхронізації.</string>
+    <string name="sync_cancel">Відмінено синхронізацію.</string>
+    <string name="error_internet_connecting">Відсутнє зєднання з інтернетом!</string>
+    <string name="wrong_connection">Відсутнє зєднання з інтернетом!</string>
+    <string name="sync_start">Запущена синхронізація...</string>
+    <string name="questions_Sync">Загрузити дані з серверу?</string>
+    <string name="syncing">Виконується синхронізація з сервером.</string>
+    <string name="sync_success">Синхронізація успішна.</string>
+    <string name="sync_upload">Вивантаження даних на сервер</string>
+    <string name="sync_download">Завантаження даних з серверу</string>
+    <string name="sync_processing">Обробка даних на пристрої</string>
+    <string name="sync_tracklist">Вигрузка треків</string>
+    <string name="sync_tracklist_upload_error">Помилка в вивантаженні даних</string>
+    <string name="sync_tracklist_downloar_error">Помилка в завантаженні даних</string>
+
+    <!--AlertDialog-->
+    <string name="questions_exit_clear">При виході будуть очищені всі дані!
+        Ви впевнені що хочете вийти ?</string>
+    <string name="questions_data_save">Зберегти дані в базу?</string>
+    <string name="questions_title_info">Інфо</string>
+    <string name="questions_answer_yes">Так</string>
+    <string name="questions_answer_save">Зберегти</string>
+    <string name="questions_answer_no">Ні</string>
+    <string name="questions_answer_cancel">Відмінити</string>
+    <string name="questions_answer_ok">Ок</string>
+    <string name="questions_title_cancel">Скасувати</string>
+    <string name="date_picker_title">Виберіть дату</string>
+    <string name="time_picker_title">Виберіть час</string>
+    <string name="period_start">Початок періоду:</string>
+    <string name="period_end">Кінець періоду:</string>
+    <string name="enter_period">Введіть період</string>
+    <string name="search">Пошук:</string>
+    <string name="enter_world_search">Введіть слово для пошуку</string>
+    <string name="questions_get_from_list">Акаунти пристрою</string>
+    <string name="synchronization">Синхронізація</string>
+    <string name="synchronize_visits_google_acc">Синхронізувати події з Google Календарем Акаунту</string>
+
+    <!--Name objects-->
+    <string name="map_name">Карта</string>
+    <string name="work_plase_name">Робочий стіл</string>
+
+    <!--Map-->
+    <string name="map_not_init_param">Не вказані параметри</string>
+    <string name="map_not_init_location">Не вказано місцезнаходження</string>
+    <string name="map_you_position">Ваше місцезнаходження</string>
+    <string name="map_track_route">Трек маршруту</string>
+    <string name="map_select_location">Виберіть координати</string>
+    <string name="map_coordinates">Координати</string>
+    <string name="map_get_location">Отримати координати</string>
+
+    <!--Element-->
+    <string name="error_delete_element_indb">Оскільки елемент знаходиться в базі, його помічено на видалення</string>
+    <string name="deleted_element">Елемент видалено</string>
+    <string name="deleted_selected_element">Видалити вибраний елемент?</string>
+    <string name="error_delete_element">Помилка видалення</string>
+    <string name="close_delete_element">Заборонено удаляти елементи</string>
+    <string name="selected_in_list">Виберіть зі списку: </string>
+    <string name="not_selected_element">Не вибрано елемент</string>
+    <string name="selected">Вибрано</string>
+    <string name="selection_list_not_found">Не вказано список вибору</string>
+    <string name="selection">Подбор</string>
+    <string name="selected_element">Вибрати даний елемент?</string>
+
+    <!--Document-->
+    <string name="error_delete_document_indb">Оскільки документ знаходиться в базі, його помічено на видалення</string>
+    <string name="not_selected_document">Не вибрано документ</string>
+    <string name="deleted_document">Документ видалено</string>
+    <string name="deleted_selected_document">Видалити вибраний документ?</string>
+
+    <!--Waybill-->
+    <string name="waybill_name">Дорожній лист</string>
+    <string name="waybill_list_name">Дорожні листи</string>
+    <string name="waybill_start_odometer_name">Показники на початок</string>
+    <string name="waybill_end_odometer_name">Показники на кінець</string>
+    <string name="waybill_start_button">Почати роботу</string>
+    <string name="waybill_end_button">Закінчити роботу</string>
+    <string name="waybill_visits_today_name">Події на сьогодні:</string>
+    <string name="input_odometer">Показники одометра</string>
+    <string name="input_start_odometer">Показники на початок дня</string>
+    <string name="input_end_odometer">Показники на кінець дня</string>
+    <string name="input_date_odometer">Дата</string>
+    <string name="waybill_map">Карта</string>
+    <string name="waybill_foto">Фото</string>
+    <string name="waybill_incar">В авто</string>
+    <string name="waybill_no_incar">Не в авто</string>
+    <string name="waybill_date">Дата</string>
+    <string name="waybill_start_odometer">Одом. почат.</string>
+    <string name="waybill_end_odometer">Одом. кінець</string>
+    <string name="waybill_km">км</string>
+    <string name="waybill_not_start">Потрібно почати роботу</string>
+
+    <!--Fuel-->
+    <string name="fuel_name">Заправки</string>
+    <string name="fuel_today_name">Заправки на сьогодні:</string>
+    <string name="fuel_date">Дата</string>
+    <string name="fuel_type_name">Вид пального</string>
+    <string name="fuel_type_payment">Вид оплати</string>
+    <string name="fuel_sum_name">Сума</string>
+    <string name="fuel_litres_name">Літри</string>
+
+    <!--Visits-->
+    <string name="visit_name">Події</string>
+    <string name="visit_name_to">Події на:</string>
+    <string name="visit_plane_name">Планування подій</string>
+    <string name="visit_type">Тип події</string>
+    <string name="visit_client">Клієнт</string>
+    <string name="visit_date">Дата</string>
+    <string name="visit_info">Інформація</string>
+
+    <!--Clients-->
+    <string name="client">Клієнт</string>
+    <string name="clients">Клієнти</string>
+    <string name="client_name">Найменування</string>
+    <string name="client_phone">Телефон</string>
+    <string name="client_adress">Адреса</string>
+
+    <!--Gallery-->
+    <string name="added_foto">Добавлені фото</string>
+    <string name="all_foto_in_device">Всі фотографії на пристрої</string>
+    <string name="selected_photo">Вибрано фото</string>
+    <string name="not_selected_photo">Не вибрано фото</string>
+    <string name="action_get_photo">Вибрати дане фото?</string>
+    <string name="photo_not_found">Фото не знайдено</string>
+    <string name="holder_photo_not_specified">Не вказаный власник фото</string>
+    <string name="added_foto_date">Дата створення</string>
+    <string name="input_info_about_photo">Введіть додаткову інформацію</string>
+
+</resources>
